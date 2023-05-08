@@ -25,6 +25,9 @@ body {
   height: 40vh;
   overflow: auto;
 }
+#JsDom .chat .message::-webkit-scrollbar {
+  display: none;
+}
 #JsDom .chat .message .end {
   text-align: end;
 }
