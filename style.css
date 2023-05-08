@@ -23,6 +23,10 @@ body {
   border-radius: 15px;
   padding: 10px;
   height: 40vh;
+  overflow: auto;
+}
+#JsDom .chat .message .end {
+  text-align: end;
 }
 #JsDom .chat .message .line {
   background-color: #4186a1;
