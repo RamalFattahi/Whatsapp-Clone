@@ -15,7 +15,7 @@ body {
 }
 #jsdom .chat {
   border-radius: 20px;
-  background-color: #e8edff;
+  background-color: #f8c471;
   padding: 25px;
 }
 #jsdom .chat .message {
@@ -61,4 +61,9 @@ body {
 }
 #jsdom .chat .text .sent h3 {
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  #jsdom .chat {
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
