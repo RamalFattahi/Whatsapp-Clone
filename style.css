@@ -10,28 +10,28 @@ body {
   width: 100%;
 }
 
-#JsDom {
+#jsdom {
   padding: 80px 0;
 }
-#JsDom .chat {
+#jsdom .chat {
   border-radius: 20px;
   background-color: #e8edff;
   padding: 25px;
 }
-#JsDom .chat .message {
+#jsdom .chat .message {
   background-color: #f4f6ff;
   border-radius: 15px;
   padding: 10px;
   height: 40vh;
   overflow: auto;
 }
-#JsDom .chat .message::-webkit-scrollbar {
+#jsdom .chat .message::-webkit-scrollbar {
   display: none;
 }
-#JsDom .chat .message .end {
+#jsdom .chat .message .end {
   text-align: end;
 }
-#JsDom .chat .message .line {
+#jsdom .chat .message .line {
   background-color: #4186a1;
   color: white;
   display: inline-block;
@@ -39,23 +39,26 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
-#JsDom .chat .text {
+#jsdom .chat .text {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-#JsDom .chat .text input {
+#jsdom .chat .text input {
   border: 2px solid #31443b;
   border-radius: 20px;
   margin-right: 10px;
 }
-#JsDom .chat .text .sent {
+#jsdom .chat .text .sent {
   background-color: #5f8094;
   color: white;
   border-radius: 20px;
   padding: 10px 25px;
   cursor: pointer;
 }
-#JsDom .chat .text .sent h3 {
+#jsdom .chat .text .sent:hover {
+  background-color: #405457;
+}
+#jsdom .chat .text .sent h3 {
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
